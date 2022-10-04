@@ -67,7 +67,7 @@ These are array of values with lables appended to them.
 
 ## Building Models
 
-Since the project is a classification problem, **Convolution Neural Network** seems the obivious choice. We also built **Convolutional Neural Network** and **Long Short Term Memory** models but they under-performed with very low accuracies which couldn't pass the test while predicting the right emotions.
+Since the project is a classification problem, we choose **Convolution Neural Network** as a model. We also built  **Long Short Term Memory** model and they performed with better accuracies.
 
 Building and tuning a model is a very time consuming process. The idea is to always start small without adding too many layers just for the sake of making it complex. After testing out with layers, the model which gave the max validation accuracy against test data was more than 85%
 <br>
