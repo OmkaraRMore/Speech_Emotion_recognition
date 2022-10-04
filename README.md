@@ -11,6 +11,9 @@ Audio files:
 Tested out the audio files by plotting out the waveform and a spectrogram to see the sample audio files.
 Waveform  
 
+[©Fabien_Ringeval_PhD_Thesis](https://drive.google.com/file/d/0B2V_I9XKBODhcEtZV1lRWW1fYTg/view).
+<br>
+
 Spectrogram
 ![](images/cnn_acc_and_..png?raw=true)
 Feature Extraction
