@@ -12,7 +12,7 @@ Tested out the audio files by plotting out the waveform and a spectrogram to see
 Waveform  
 
 Spectrogram
- ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+ ![alt text](https://github.com/[OmkaraRMore]/[Speech_Emotion_recognition]/blob/[main]/images/cnn_acc_and_.png?raw=true)
 Feature Extraction
 The next step involves extracting the features from the audio files which will help our model learn between these audio files. For feature extraction we make use of the LibROSA library in python which is one of the libraries used for audio analysis.
  Here there are some things to note. While extracting the features, all the audio files have been timed for 3 seconds to get equal number of features.
