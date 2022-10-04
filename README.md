@@ -35,7 +35,7 @@ Tested out the audio files by plotting out the waveform and a spectrogram to see
 <br>
 
 ## data augmentation?
-The data provided in model is clear which is recorded i well setup which doesn’t got any disturbances in it, so the model will overfit, and to overcome this we are using data augmentation
+The data provided in model is clear which is recorded in well setup studio which doesn’t got any disturbances in it, so the model will overfit by training on same data, and to overcome this we are using data augmentation
 
 Data augmentation is a process of increasing the amount of data by adding small disturbances and generating new data points from existing data.
 The benefit of data augmentation is to reduce overfitting.To generate syntactic data for audio, we can apply noise injection, shifting time, changing pitch and speed.
