@@ -60,7 +60,7 @@ Since the project is a classification problem, **Convolution Neural Network** se
 Building and tuning a model is a very time consuming process. The idea is to always start small without adding too many layers just for the sake of making it complex. After testing out with layers, the model which gave the max validation accuracy against test data was little more than 70%
 <br>
 <br>
-![](images/cnn.png?raw=true)
+![](images/cnn_acc_and_.png?raw=true)
 <br>
 
 ## Predictions
@@ -68,33 +68,15 @@ Building and tuning a model is a very time consuming process. The idea is to alw
 After tuning the model, tested it out by predicting the emotions for the test data. For a model with the given accuracy these are a sample of the actual vs predicted values.
 <br>
 <br>
-![](images/predict.png?raw=true)
+![](images/predictions.png?raw=true)
 <br>
 
 ## Testing out with live voices.
-In order to test out our model on voices that were completely different than what we have in our training and test data, we recorded our own voices with dfferent emotions and predicted the outcomes. You can see the results below:
-The audio contained a male voice which said **"This coffee sucks"** in a angry tone.
+In order to test out our model on voices that were completely different than what we have in our training and test data, we recorded our own voices with dfferent emotions and predicted the outcomes. 
 <br>
-![](images/livevoice.PNG?raw=true)
+![](images/redicting_emotions.PNG?raw=true)
 <br>
-<br>
-![](images/livevoice2.PNG?raw=true)
-<br>
-
-### As you can see that the model has predicted the male voice and emotion very accurately in the image above.
-
-## NOTE: If you are using the model directly and want to decode the output ranging from 0 to 9 then the following list will help you.
-
-0 - female_angry <br>
-1 - female_calm <br>
-2 - female_fearful <br>
-3 - female_happy <br>
-4 - female_sad <br>
-5 - male_angry <br>
-6 - male_calm <br>
-7 - male_fearful <br>
-8 - male_happy <br>
-9 - male_sad <br>
+This is the function which extracts features from audio and take it as numpy array and predicts the emotion.
 
 ## Conclusion
 Building the model was a challenging task as it involved lot of trail and error methods, tuning etc. The model is very well trained to distinguish between male and female voices and it distinguishes with 100% accuracy. The model was tuned to detect emotions with more than 70% accuracy. Accuracy can be increased by including more audio files for training.
