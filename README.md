@@ -34,6 +34,16 @@ Tested out the audio files by plotting out the waveform and a spectrogram to see
 ![](images/spec.png?raw=true)
 <br>
 
+## data augmentation?
+
+Data augmentation is a process of increasing the amount of data by adding small disturbances and generating new data points from existing data.
+The benefit of data augmentation is to reduce overfitting.To generate syntactic data for audio, we can apply noise injection, shifting time, changing pitch and speed.
+The objective is to make our model unchanged to those disturbances and enhace its ability to generalize.
+<br>
+![](images/spec.png?raw=true)
+<br>
+
+
 ## Feature Extraction
 The next step involves extracting the features from the audio files which will help our model learn between these audio files.
 For feature extraction we make use of the [**LibROSA**](https://librosa.github.io/librosa/) library in python which is one of the libraries used for audio analysis. 
