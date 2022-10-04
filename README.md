@@ -40,7 +40,7 @@ Data augmentation is a process of increasing the amount of data by adding small 
 The benefit of data augmentation is to reduce overfitting.To generate syntactic data for audio, we can apply noise injection, shifting time, changing pitch and speed.
 The objective is to make our model unchanged to those disturbances and enhace its ability to generalize.
 <br>
-![](images/spec.png?raw=true)
+![](images/data_augmentation.png?raw=true)
 <br>
 
 
