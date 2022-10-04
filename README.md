@@ -20,7 +20,7 @@ Each audio file is named in such a way that the 7th character is consistent with
 2. SAVEE.
 This dataset contains around 500 audio files recorded by 4 different male actors. The first two characters of the file name correspond to the different emotions that the potray. 
 
-3.Tess.
+3. TESS.
 There are a set of 200 target words were spoken in the carrier phrase "Say the word _' by two actresses (aged 26 and 64 years) and recordings were made of the set portraying each of seven emotions (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral). There are 2800 data points (audio files) in total.
 
 ## Audio files:
