@@ -78,7 +78,7 @@ In order to test out our model on voices that were completely different than wha
 ![](images/redicting_emotions.PNG?raw=true)
 <br>
 <br>
-![](images/livevoice2.PNG?raw=true)
+![](images/redicting_emotions.PNG?raw=true)
 <br>
 This is the function which extracts features from audio and take it as numpy array and predicts the emotion.
 
