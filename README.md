@@ -13,12 +13,15 @@ This can be used by multiple industries to offer different services like marketi
 
 ### Datasets:
 Made use of two different datasets:
-1. [RAVDESS](https://zenodo.org/record/1188976).
+1. RAVDESS.
 This dataset includes around 1500 audio file input from 24 different actors. 12 male and 12 female where these actors record short audios in 8 different emotions i.e 1 = neutral, 2 = calm, 3 = happy, 4 = sad, 5 = angry, 6 = fearful, 7 = disgust, 8 = surprised.<br>
 Each audio file is named in such a way that the 7th character is consistent with the different emotions that they represent.
 
-2. [SAVEE](http://kahlan.eps.surrey.ac.uk/savee/Download.html).
+2. SAVEE.
 This dataset contains around 500 audio files recorded by 4 different male actors. The first two characters of the file name correspond to the different emotions that the potray. 
+
+3.Tess.
+There are a set of 200 target words were spoken in the carrier phrase "Say the word _' by two actresses (aged 26 and 64 years) and recordings were made of the set portraying each of seven emotions (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral). There are 2800 data points (audio files) in total.
 
 ## Audio files:
 Tested out the audio files by plotting out the waveform and a spectrogram to see the sample audio files.<br>
@@ -34,7 +37,7 @@ Tested out the audio files by plotting out the waveform and a spectrogram to see
 The next step involves extracting the features from the audio files which will help our model learn between these audio files.
 For feature extraction we make use of the [**LibROSA**](https://librosa.github.io/librosa/) library in python which is one of the libraries used for audio analysis. 
 <br>
-![](images/feature.png?raw=true)
+![](images/features_extraction.png?raw=true)
 <br>
 * Here there are some things to note. While extracting the features, all the audio files have been timed for 3 seconds to get equal number of features. 
 * The sampling rate of each file is doubled keeping sampling frequency constant to get more features which will help classify the audio file when the size of dataset is small.
