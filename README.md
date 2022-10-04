@@ -58,7 +58,7 @@ These are array of values with lables appended to them.
 
 Since the project is a classification problem, **Convolution Neural Network** seems the obivious choice. We also built **Convolutional Neural Network** and **Long Short Term Memory** models but they under-performed with very low accuracies which couldn't pass the test while predicting the right emotions.
 
-Building and tuning a model is a very time consuming process. The idea is to always start small without adding too many layers just for the sake of making it complex. After testing out with layers, the model which gave the max validation accuracy against test data was little more than 85%
+Building and tuning a model is a very time consuming process. The idea is to always start small without adding too many layers just for the sake of making it complex. After testing out with layers, the model which gave the max validation accuracy against test data was more than 85%
 <br>
 <br>
 ![](images/cnn_acc_and_.png?raw=true)
@@ -74,13 +74,6 @@ After tuning the model, tested it out by predicting the emotions for the test da
 
 ## Testing out with live voices.
 In order to test out our model on voices that were completely different than what we have in our training and test data, we recorded our own voices with dfferent emotions and predicted the outcomes. 
-<br>
-![](images/redicting_emotions.PNG?raw=true)
-<br>
-<br>
-![](images/redicting_emotions.PNG?raw=true)
-<br>
-This is the function which extracts features from audio and take it as numpy array and predicts the emotion.
 
 ## Conclusion
-Building the model was a challenging task as it involved lot of trail and error methods, tuning etc. The model is very well trained to distinguish between male and female voices and it distinguishes with 100% accuracy. The model was tuned to detect emotions with more than 70% accuracy. Accuracy can be increased by including more audio files for training.
+Building the model was a challenging task as it involved lot of trial and error methods, tuning etc. The model is very well trained to distinguish between emotions and it distinguishes with 100% accuracy. The model was tuned to detect emotions with more than 85% accuracy. Accuracy can be increased by including more audio files for training.
